@@ -1,0 +1,21 @@
+|Contador4bits_UpDown
+Clk => Cont[0].CLK
+Clk => Cont[1].CLK
+Clk => Cont[2].CLK
+Clk => Cont[3].CLK
+Clk => Cont[4].CLK
+Clk => Cont[5].CLK
+Up => Cont.OUTPUTSELECT
+Up => Cont.OUTPUTSELECT
+Up => Cont.OUTPUTSELECT
+Up => Cont.OUTPUTSELECT
+Up => Cont.OUTPUTSELECT
+Up => Cont.OUTPUTSELECT
+Q[0] <= Cont[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Cont[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Cont[2].DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Cont[3].DB_MAX_OUTPUT_PORT_TYPE
+Q[4] <= Cont[4].DB_MAX_OUTPUT_PORT_TYPE
+Q[5] <= Cont[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
